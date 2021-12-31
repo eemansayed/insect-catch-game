@@ -14,6 +14,10 @@ body {
   text-align: center;
 }
 
+a {
+  color: #fff;
+}
+
 .btn {
   border: 0;
   background-color: #fff;

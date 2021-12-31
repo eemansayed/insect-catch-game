@@ -114,4 +114,13 @@ left: 20px;
   z-index: 100;
   text-align:center ;
   opacity: 0;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  transition: transform 0.4s ease-in;
+}
+
+.message.visible {
+  opacity: 1;
+  transform: translate(-50%, 150%);
 }

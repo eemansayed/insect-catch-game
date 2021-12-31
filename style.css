@@ -23,6 +23,14 @@ body {
   cursor: pointer;
 }
 
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
+
 .screen {
   display: flex;
   flex-direction: column;

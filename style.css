@@ -135,9 +135,7 @@ left: 20px;
   position: absolute;
   transform:translate(-50%, -50%) scale(1) ;
   transition: transform 0.3s ease-in-out;
-  top: 200px;
-  left: 300px;
-}
+  }
 
 .insect.caught {
   transform: translate(-50%, -50%) scale(0);

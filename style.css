@@ -88,3 +88,7 @@ h1 {
   height: 100px;
   object-fit: contain;
 }
+
+.game-container {
+  position: relative;
+}

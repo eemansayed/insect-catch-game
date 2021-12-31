@@ -23,3 +23,9 @@ choose_insect_btns.forEach((btn) => {
     startGame();
   });
 });
+
+function createInsect() {
+  const insect = document.createElement("div");
+  insect.classList.add("insect");
+  const { x, y } = getRandomLocation();
+}

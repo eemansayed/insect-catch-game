@@ -105,3 +105,13 @@ left: 20px;
 .score {
   right: 20px;
 }
+
+.message {
+  line-height: 1.7;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 20px;
+  z-index: 100;
+  text-align:center ;
+  opacity: 0;
+}

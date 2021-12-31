@@ -36,7 +36,7 @@ h1 {
 }
 
 .btn:focus {
-  outline: none;
+  outline: 0;
 }
 
 .screen {
@@ -115,6 +115,7 @@ left: 20px;
   z-index: 100;
   text-align:center ;
   opacity: 0;
+  position: absolute;
   top: 0;
   left: 50%;
   transform: translate(-50%, -150%);

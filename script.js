@@ -28,13 +28,22 @@ function startGame() {
   setInterval(increaseTime, 1000);
 }
 
+function increaseTime() {
+  let m = Math.floor(seconds / 60);
+  let s = seconds % 60;
+  m = m < 10 ? `0${m}` : m;
+  s = s < 10 ? `0${s}` : s;
+  timeEl.innerHTML = `Time: ${m}:${s}`;
+  seconds++;
+}
+
 function createInsect() {
   const insect = document.createElement("div");
   insect.classList.add("insect");
   const { x, y } = getRandomLocation();
   insect.style.top = `${y}px`;
   insect.style.left = `${x}px`;
-  insect.innerHTML`<img src="${selected_insect.src}" alt="${
+  insect.innerHTML = `<img src="${selected_insect.src}" alt="${
     selected_insect.alt
   }" style="transform: rotate(${Math.random() * 360}deg)" />`;
 
